@@ -1,10 +1,7 @@
-GET http://localhost:3001/api/notes/
-
-###
-POST http://localhost:3001/api/notes/ HTTP/1.1
-content-type: application/json
+POST http://localhost:3001/api/notes
+Content-Type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+  "content": "Ensure that everything still works",
+  "important": true
 }
